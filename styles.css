@@ -1,0 +1,40 @@
+:root {
+    --branco-principal: rgb(0, 0, 0);
+    --cinza-secundario: hsl(0, 0%, 0%);
+    --botao-azul: #ffffff;
+    --cor-de-fundo: #2a223a;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url(/home/escola/Downloads/quiziizzz.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-template-columns: 50% 50%;
+}
+
+.container {
+    height: 100vh;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
+}
